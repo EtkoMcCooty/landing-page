@@ -24,7 +24,7 @@ nav ul li {
   color: #e5e7eb;
 }
 
-.hero {
+.hero-section {
   background-color: #1f2937;
 }
 .hero-container {
@@ -71,4 +71,54 @@ nav ul li {
   margin-top: 20%;
   text-align: center;
   color: #e5e7eb;
+}
+
+#info-header {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  font-size: 36px;
+  text-align: center;
+  color: #1f2937;
+}
+
+.info-section {
+  padding-bottom: 5%;
+}
+
+.placeholder-images {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.placeholder-image {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
+
+.captions {
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.quote-section {
+  display: flex;
+  padding-bottom: 3%;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+blockquote {
+  margin: 5% 25% 0 25%;
+  font-size: 36px;
+}
+
+figcaption {
+  margin-right: 25%;
+  text-align: right;
 }
